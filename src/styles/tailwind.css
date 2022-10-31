@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/** 
+
+    CUSTOM CSS SHOULD BE ADDED HERE, NOT ON MAIN.CSS
+
+*/
+
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    @apply bg-myflixDarkGray;
+}
+
+.gradient-darkgrey {
+    background: linear-gradient(to top, rgba(37,37,45,1), rgba(0,0,0,0));
+}
+
+.play-button-center {
+    left: 45%;
+    right: 55%;
+    top: 33%;
+    bottom: 67%;
+  }
